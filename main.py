@@ -4,17 +4,18 @@
 
 class animal:
     patas = 0
-    
-    def caminar():
-        print(f"Caminando con {animal.patas} patas")
+
+    def caminar(self):
+        print(f"Caminando con {self.patas} patas")
+        
 
 def main():
-    vaca = animal
+    vaca = animal()
     vaca.patas = 4
     vaca.caminar()
 
-    pato = animal
-    vaca.patas = 2
+    pato = animal()
+    pato.patas = 2
     pato.caminar()
 
 if __name__ == "__main__":
