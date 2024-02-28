@@ -1,8 +1,8 @@
-from persona import persona
+from persona import Persona
 
 def main():
-    Fabio = persona("Fabio", 18)
-    Iriem = persona("Iriem", 20)
+    Fabio = Persona("Fabio", 18)
+    Iriem = Persona("Iriem", 20)
     Fabio.imprimir()
     Fabio.cumpleanos()
     print("\n\n\n")
