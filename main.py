@@ -1,7 +1,7 @@
-import alumno
+from alumno import alumno
 
 def main():
-    Daniel = alumno.alumno()
+    Daniel = alumno()
     Daniel.imprimir()
 
 
