@@ -8,6 +8,6 @@ class alumno:
     
     def promocion(self):
         if self.nota >= 5:
-            print(f"El alumno {self.nombre} está promociona")
+            print(f"El alumno {self.nombre} promociona")
         else:
             print(f"El alumno {self.nombre} no promociona")
