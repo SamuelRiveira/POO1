@@ -1,13 +1,13 @@
 from persona import Persona
 
 def main():
-    Fabio = Persona("Fabio", 18)
-    Iriem = Persona("Iriem", 20)
-    Fabio.imprimir()
-    Fabio.cumpleanos()
+    fabio = Persona("Fabio", 18)
+    iriem = Persona("Iriem", 20)
+    fabio.imprimir()
+    fabio.cumpleanos()
     print("\n\n\n")
-    Iriem.imprimir()
-    Iriem.cumpleanos()
+    iriem.imprimir()
+    iriem.cumpleanos()
 
 
 if __name__ == "__main__":
