@@ -3,11 +3,11 @@
 2º Qué palabra reservada hay que utilizar para crear un nuevo objeto"""
 
 class animal:
-    patas = 0
+    #patas = 0 #Atributo
 
-    def caminar(self):
+    def caminar(self): #Método
+        self.patas = 0 #Atributo
         print(f"Caminando con {self.patas} patas")
-        
 
 def main():
     vaca = animal()
