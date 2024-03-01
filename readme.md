@@ -5,3 +5,5 @@
 - Animal
 - Alumno
 - Persona
+- crypto
+- calculo
