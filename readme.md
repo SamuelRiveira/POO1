@@ -1,5 +1,7 @@
-# Título
+# Programación Orientada a Objetos 1
 
-## H2 Subtítulo
+## Ejercicios de introducción
 
-Información
+- Animal
+- Alumno
+- Persona
